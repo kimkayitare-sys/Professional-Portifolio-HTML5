@@ -1,0 +1,118 @@
+{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    color:#e5e7eb;
+    background:
+    linear-gradient(rgba(5,13,22,.66),rgba(5,10,18,.66)),
+    url("20260417_142435.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+.topbar,.footer,.container{
+    width:min(1100px,92%);
+    margin:auto;
+}
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;zz
+    padding:18px 0;
+    flex-wrap:wrap;
+}
+.brand{
+    font-weight:bold;
+    letter-spacing:1px;
+}
+nav a{
+    color:#e5e7eb;
+    text-decoration:none;
+    margin-right:16px;
+}
+nav a.active,nav a:hover{
+    color:#f59e0b;
+}
+.container{
+    padding:20px 0 40px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:16px;
+}
+.card{
+    background:# b0e0e6;
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:14px;
+    padding:18px;
+}
+.card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:12px;
+}
+h1,h2{
+    margin-top:0;
+    color:#f59e0b;
+}
+p{
+    color:#cbd5e1;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th,td{
+    border:1px solid rgba(255,255,255,.12);
+    padding:10px;
+    text-align:left;
+}
+th{
+    background:rgba(245,158,11,.15);
+    color:#f59e0b;
+}
+label{
+    display:block;
+    margin:10px 0 6px;
+}
+input,textarea,button{
+    width:100%;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid rgba(255,255,255,.12);
+    font:inherit;
+}
+input,textarea{
+    background:#0b1220;
+    color:#d8bfd8;
+}
+button{
+    margin-top:12px;
+    background:#8fbc8b;
+    color:#111827;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+.action-bar{
+    margin-top:14px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.action-bar a{
+    text-decoration:none;
+    background:#8fbc8b;
+    color:#0b1220;
+    padding:8px 12px;
+    border-radius:8px;
+    font-weight:bold;
+    font-size:.9rem;
+}
+.footer{
+    text-align:center;
+    padding:14px 0 26px;
+}
